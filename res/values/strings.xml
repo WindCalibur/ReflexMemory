@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Settings</string>
+    <string name="reflex">reflex</string>
+    <string name="memory">memory</string>
+    <string name="title_activity_reflex">Reflex</string>
+    <string name="title_activity_memory">Test your Memory</string>
+    <string name="question">Enter your question</string>
+    <string name="answer">Enter your answer</string>
+    <string name="next_card">Next Card</string>
+    <string name="previous_card">Previous Card</string>
+    <string name="delete_card">Delete Card</string>
+    <string name="return_to_memory">Return</string>
+    
+</resources>

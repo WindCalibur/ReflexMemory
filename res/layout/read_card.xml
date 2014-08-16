@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_card_main">
+	<Button
+	    	android:id="@+id/nextcard"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/next_card"
+	        android:onClick="nextCard"
+	        android:layout_alignParentRight="true" />
+	<Button
+	    	android:id="@+id/previouscard"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/previous_card"
+	        android:onClick="previousCard"
+	        android:layout_alignParentLeft="true" />
+	<Button
+	    	android:id="@+id/deletecard"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/delete_card"
+	        android:onClick="deleteCard"
+	        android:layout_below="@id/nextcard"
+	        android:layout_alignParentRight="true" />
+	<Button
+	    	android:id="@+id/return_to_memory"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/return_to_memory"
+	        android:onClick="returnToMemory"
+	        android:layout_below="@+id/previouscard"
+	        android:layout_alignParentLeft="true" />
+	
+	 <TextView
+	     android:id="@+id/questionview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/return_to_memory"
+     />
+	 
+	 <Button
+	    	android:id="@+id/togglebtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	         android:layout_below="@+id/questionview"/>
+
+</RelativeLayout>
